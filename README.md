@@ -11,3 +11,4 @@
 ### 4.	菜單一頁(法式甜點、飲品)，直接點選加入購物車，會即時更新餐點到左下角的購物車圖片中
 ### 5.	數量在購物車裡選擇
 ### 6.	點選"去買單"可以查看訂單資訊及總金額
+<img width="366" alt="image" src="https://github.com/meimei-lin/AndroidStudio-Order-APP/assets/81676839/648ffcd0-3f1c-4e7d-bc3d-fc26470b79c9">
