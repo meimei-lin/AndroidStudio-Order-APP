@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="dessert">甜點物語</string>
+    <string name="enter">點我進入</string>
+    <string name="login">   登入</string>
+    <string name="register">註冊</string>
+    <string name="comfirm">確認</string>
+    <string name="clear">清除</string>
+    <string name="menu">菜單資訊</string>
+    <string name="account">  帳號:</string>
+    <string name="password">  密碼:</string>
+    <string name="inputAccount">輸入帳號</string>
+    <string name="inputpassword">輸入密碼</string>
+    <string name="comPass">確認密碼:</string>
+    <string name="f1">黑森林蛋糕</string>
+    <string name="f2">提拉米蘇</string>
+    <string name="f3">馬卡龍</string>
+    <string name="f4">舒芙蕾</string>
+    <string name="f5">檸檬塔</string>
+    <string name="f6">肉桂捲</string>
+    <string name="d1">榛果拿鐵</string>
+    <string name="d2">可可歐蕾</string>
+    <string name="d3">水果茶</string>
+    <string name="d4">OREO冰沙</string>
+    <string name="d5">草莓奶昔</string>
+    <string name="order">點餐</string>
+    <string name="exit">登出</string>
+    <string name="pre">上一頁</string>
+    <string name="cart">訂購完成</string>
+    <string name="orderpage">您的訂餐畫面</string>
+    <string name="send">送出</string>
+    <string name="list">明細如下</string>
+    <string name="money">訂單總金額:</string>
+    <string name="home">首頁</string>
+    <string name="viewmenu">查看菜單</string>
+    <string name="rightlist">右滑清單</string>
+    <string name="introduction">甜點物語是一間新開的甜點店，我們有賣一些法式甜品、拿鐵、茶類等等，現在我們推出線上訂餐app供顧客們使用，左側選單右滑可以查看菜單、點餐以及查看訂單喔!歡迎大家多多利用，也可以給予我們回饋喔!!</string>
+    <string name="thanks">謝謝您的訂購~</string>
+    <string name="history">訂單歷史紀錄</string>
+    <string name="comf_money">確認結帳</string>
+
+</resources>

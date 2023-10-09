@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i3"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/register"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/inputaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/inputAccount"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/inputpassword1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/inputpassword"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comPass"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/inputpassword2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/inputpassword"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/comfB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDB950"
+                android:text="@string/comfirm"
+                android:textColor="#6200EA"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/clearB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#EDB950"
+                android:text="@string/clear"
+                android:textColor="#6200EA"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E3BA69"
+                android:text="@string/pre"
+                android:textColor="#0D47A1"
+                android:textSize="16sp"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
